@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'regular';
+
+}
+@font-face {
+    font-family: 'regular';
+    src: url(./helvetica/Helvetica.ttf);
+}
+.main{
+    overflow: hidden;
+}
+.heading{
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'regular';
+}
+.logo{
+    height: 90px;
+    width: 90px;
+}
+
+.text-heading{
+    height: 250px;
+    width: 700px;
+    font-size: 59px;
+    letter-spacing: -0.1em;
+    color: #55060C;
+    line-height:1.8ch;
+}
+
+.diff{
+    color: #AD9A9A;
+   margin-left: 180px;
+}
+.last{
+    margin-left: 180px;
+}
+.middleimg{
+    padding-top: 20px;
+    height: 70px;
+    width: 100px;
+    transform: scale(1.2);
+}
+
+.subtext{
+    font-size: 12px;
+      color: #55060C;
+}
+.shape{
+    margin-left: 34px;
+}
+
+
+
+
+
+
+.middle-section{
+    height: 450px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.latest-text{
+    height: 400px;
+    width: 100px;
+    margin-left: 20px;
+    font-size: 27px;
+    text-align:start;
+    text-decoration:underline;
+    color: #55060C;
+    display: flex;
+    align-items: end;
+}
+.img-part {
+    display: flex;
+    gap: 24px; /* space between images */
+}
+
+.one{
+    height: 300px;
+    width: 260px;
+    border-radius: 15px;
+}
+.two{
+    height: 300px;
+    width: 260px;
+      border-radius: 15px;
+}
+
+.three{
+      height: 300px;
+    width: 260px;
+      border-radius: 15px;
+}
+
+.img-text{
+    height: 400px;
+    width: 860px;
+    font-size: 12px;
+    color: #8e7379;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last-section{
+    margin-top: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-heading{
+  font-size: 59px;
+  text-align: center;
+    letter-spacing: -0.1em;
+    color: #55060C;
+     line-height:1.8ch;
+}
+
+.brand{
+       color: #AD9A9A; 
+}
+
+p{
+    font-size: 12px;
+    color: #8e7379;
+    margin-top: 55px;
+    align-items: end;
+    text-align: center;
+}
